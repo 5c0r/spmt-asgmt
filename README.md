@@ -24,3 +24,4 @@ This is an Assignment from Supermetrics . Tested on Both Windows and Arch Linux
 - Wrap a rest API
 - Do exception handling
 - Retry strategy for failure HTTP requests..
+- Finding out how to serialize->deserialize data more than just json_encode/decode...
