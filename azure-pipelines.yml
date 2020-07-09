@@ -24,3 +24,7 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
+
+- script: 
+    cd ./tests/
+    ./../vendor/bin/phpunit ./
